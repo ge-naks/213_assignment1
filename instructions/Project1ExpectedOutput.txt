@@ -1,0 +1,199 @@
+Collection Manager is up running.
+
+Invalid command!
+Invalid command!
+Invalid command!
+Invalid command!
+Invalid command!
+Invalid command!
+Invalid command!
+Invalid command!
+Invalid command!
+Invalid command!
+Collection is empty!
+Collection is empty!
+Collection is empty!
+Invalid command!
+Artist DOB: 0/2/2000 is invalid.
+Artist DOB: 13/2/2020 is invalid.
+Artist DOB: 2/29/2021 is invalid.
+Artist DOB: 4/31/2009 is invalid.
+Artist DOB: 3/32/2009 is invalid.
+Artist DOB: 3/31/1899 is invalid.
+Artist DOB: 3/31/2025 is invalid.
+Artist DOB: 2/29/2024 is invalid.
+Artist DOB: 11/0/2021 is invalid.
+Date Released: 0/2/2000 is invalid.
+Date Released: 13/2/2020 is invalid.
+Date Released: 2/29/2021 is invalid.
+Date Released: 4/31/2009 is invalid.
+Date Released: 3/32/2009 is invalid.
+Date Released: 3/31/1899 is invalid.
+Date Released: 3/31/2025 is invalid.
+Date Released: 2/29/2024 is invalid.
+Date Released: 11/0/2021 is invalid.
+Fearless(Taylor Swift:12/13/1989) added to the collection.
+Fearless(Taylor Swift:12/13/1989) is already in the collection.
+FEARLESS(TAYLOR SWIFT:12/13/1989) is already in the collection.
+Midnights(Taylor Swift:12/13/1989) added to the collection.
+Losing Sleep(Chris Young:6/12/1985) added to the collection.
+losing sleep(chris young:6/12/1985) is already in the collection.
+Famous Friends(Chris Young:6/12/1985) added to the collection.
+Hero(Maren Morris:4/10/1990) added to the collection.
+Humble Quest(Maren Morris:4/10/1990) added to the collection.
+Ghost Stories(Coldplay:1/1/1997) added to the collection.
+A Rush of Blood to the Head(Coldplay:1/1/1997) added to the collection.
+Debussy:La Mer(Simon Rattle:1/19/1955) added to the collection.
+Wonderful Town(Simon Rattle:1/19/1955) added to the collection.
+Debussy:La Mer(Gary Bertini:5/1/1927) added to the collection.
+Mahler:Symphonies 1-10(Gary Bertini:5/1/1927) added to the collection.
+Debussy:La Mer(Leonard Bernstein:8/15/1918) added to the collection.
+Bernstein's Complete Recordings on Deutsche Grammophon(Leonard Bernstein:8/15/1918) added to the collection.
+Debussy:La Mer(Michael Tilson Thomas:12/21/1944) added to the collection.
+Blue(April:1/1/2015) added to the collection.
+Blue(April:1/11/2015) added to the collection.
+Blue(April:1/1/2015) is already in the collection.
+Piece of Me(April:4/30/2000) added to the collection.
+The Way of the World(Mose Allison:11/11/1927) added to the collection.
+Pure Mose(Mose Allison:11/11/1927) added to the collection.
+Dream Louder(Rotem Sivan:2/14/1989) added to the collection.
+True to Life(Ray Charles:9/23/1930) added to the collection.
+Testing Album(Ray Charles:9/29/1930) added to the collection.
+Queen of Hearts(Joan Baez:1/9/1941) added to the collection.
+BLUE(APRIL:1/11/2015) removed from the collection.
+blue(april:1/11/2015) is not in the collection
+Blue(April:1/11/2015) is not in the collection
+Fearless(Taylor Swift:12/13/1989) removed from the collection.
+Fearless(Taylor Swift:12/13/1989) is not in the collection
+Fearless(Taylor Swift:12/13/1989) added to the collection.
+* Collection sorted by Released Date/Title *
+[True to Life] Released 10/1/1977 [Ray Charles:9/23/1930] [Jazz] Rating: none
+[Testing Album] Released 10/31/1977 [Ray Charles:9/29/1930] [Jazz] Rating: none
+[Queen of Hearts] Released 1/1/1989 [Joan Baez:1/9/1941] [Unknown] Rating: none
+[Debussy:La Mer] Released 2/28/1995 [Leonard Bernstein:8/15/1918] [Classical] Rating: none
+[Pure Mose] Released 7/9/1996 [Mose Allison:11/11/1927] [Jazz] Rating: none
+[Wonderful Town] Released 9/14/1999 [Simon Rattle:1/19/1955] [Classical] Rating: none
+[Debussy:La Mer] Released 1/1/2001 [Michael Tilson Thomas:12/21/1944] [Classical] Rating: none
+[Debussy:La Mer] Released 9/13/2005 [Simon Rattle:1/19/1955] [Classical] Rating: none
+[Bernstein's Complete Recordings on Deutsche Grammophon] Released 11/8/2005 [Leonard Bernstein:8/15/1918] [Classical] Rating: none
+[Debussy:La Mer] Released 1/1/2006 [Gary Bertini:5/1/1927] [Classical] Rating: none
+[Mahler:Symphonies 1-10] Released 1/10/2006 [Gary Bertini:5/1/1927] [Classical] Rating: none
+[Fearless] Released 11/8/2008 [Taylor Swift:12/13/1989] [Pop] Rating: none
+[The Way of the World] Released 3/23/2010 [Mose Allison:11/11/1927] [Jazz] Rating: none
+[Ghost Stories] Released 5/16/2014 [Coldplay:1/1/1997] [Pop] Rating: none
+[Hero] Released 6/3/2016 [Maren Morris:4/10/1990] [Country] Rating: none
+[Losing Sleep] Released 10/20/2017 [Chris Young:6/12/1985] [Country] Rating: none
+[Blue] Released 3/1/2018 [April:1/1/2015] [Unknown] Rating: none
+[Famous Friends] Released 8/6/2021 [Chris Young:6/12/1985] [Country] Rating: none
+[Piece of Me] Released 11/1/2021 [April:4/30/2000] [Pop] Rating: none
+[A Rush of Blood to the Head] Released 3/25/2022 [Coldplay:1/1/1997] [Pop] Rating: none
+[Humble Quest] Released 3/25/2022 [Maren Morris:4/10/1990] [Country] Rating: none
+[Midnights] Released 3/25/2022 [Taylor Swift:12/13/1989] [Pop] Rating: none
+[Dream Louder] Released 1/12/2024 [Rotem Sivan:2/14/1989] [Jazz] Rating: none
+* end of list *
+Invalid rating, rating scale is 1 to 5.
+Invalid rating, rating scale is 1 to 5.
+You rate 5 for Fearless:11/8/2008(Taylor Swift)
+You rate 3 for Fearless:11/8/2008(Taylor Swift)
+You rate 2 for Fearless:11/8/2008(Taylor Swift)
+You rate 3 for Fearless:11/8/2008(Taylor Swift)
+You rate 4 for Fearless:11/8/2008(Taylor Swift)
+You rate 4 for Fearless:11/8/2008(Taylor Swift)
+You rate 5 for Fearless:11/8/2008(Taylor Swift)
+You rate 5 for Fearless:11/8/2008(Taylor Swift)
+You rate 1 for Fearless:11/8/2008(Taylor Swift)
+You rate 1 for Fearless:11/8/2008(Taylor Swift)
+You rate 4 for Debussy:La Mer:1/1/2001(Michael Tilson Thomas)
+You rate 3 for Debussy:La Mer:1/1/2001(Michael Tilson Thomas)
+You rate 5 for Debussy:La Mer:2/28/1995(Leonard Bernstein)
+You rate 2 for Debussy:La Mer:2/28/1995(Leonard Bernstein)
+You rate 3 for Blue:3/1/2018(April)
+Blue(April:1/11/2015) is not in the collection
+You rate 5 for Ghost Stories:5/16/2014(Coldplay)
+You rate 4 for Ghost Stories:5/16/2014(Coldplay)
+You rate 3 for Ghost Stories:5/16/2014(Coldplay)
+You rate 2 for Ghost Stories:5/16/2014(Coldplay)
+You rate 1 for Ghost Stories:5/16/2014(Coldplay)
+Invalid rating, rating scale is 1 to 5.
+You rate 5 for Midnights:3/25/2022(Taylor Swift)
+You rate 1 for Piece of Me:11/1/2021(April)
+You rate 2 for Wonderful Town:9/14/1999(Simon Rattle)
+You rate 4 for Dream Louder:1/12/2024(Rotem Sivan)
+You rate 5 for Dream Louder:1/12/2024(Rotem Sivan)
+* Collection sorted by Released Date/Title *
+[True to Life] Released 10/1/1977 [Ray Charles:9/23/1930] [Jazz] Rating: none
+[Testing Album] Released 10/31/1977 [Ray Charles:9/29/1930] [Jazz] Rating: none
+[Queen of Hearts] Released 1/1/1989 [Joan Baez:1/9/1941] [Unknown] Rating: none
+[Debussy:La Mer] Released 2/28/1995 [Leonard Bernstein:8/15/1918] [Classical] Rating: *(0)**(1)***(0)****(0)*****(1)(average rating: 3.50)
+[Pure Mose] Released 7/9/1996 [Mose Allison:11/11/1927] [Jazz] Rating: none
+[Wonderful Town] Released 9/14/1999 [Simon Rattle:1/19/1955] [Classical] Rating: *(0)**(1)***(0)****(0)*****(0)(average rating: 2.00)
+[Debussy:La Mer] Released 1/1/2001 [Michael Tilson Thomas:12/21/1944] [Classical] Rating: *(0)**(0)***(1)****(1)*****(0)(average rating: 3.50)
+[Debussy:La Mer] Released 9/13/2005 [Simon Rattle:1/19/1955] [Classical] Rating: none
+[Bernstein's Complete Recordings on Deutsche Grammophon] Released 11/8/2005 [Leonard Bernstein:8/15/1918] [Classical] Rating: none
+[Debussy:La Mer] Released 1/1/2006 [Gary Bertini:5/1/1927] [Classical] Rating: none
+[Mahler:Symphonies 1-10] Released 1/10/2006 [Gary Bertini:5/1/1927] [Classical] Rating: none
+[Fearless] Released 11/8/2008 [Taylor Swift:12/13/1989] [Pop] Rating: *(2)**(1)***(2)****(2)*****(3)(average rating: 3.30)
+[The Way of the World] Released 3/23/2010 [Mose Allison:11/11/1927] [Jazz] Rating: none
+[Ghost Stories] Released 5/16/2014 [Coldplay:1/1/1997] [Pop] Rating: *(1)**(1)***(1)****(1)*****(1)(average rating: 3.00)
+[Hero] Released 6/3/2016 [Maren Morris:4/10/1990] [Country] Rating: none
+[Losing Sleep] Released 10/20/2017 [Chris Young:6/12/1985] [Country] Rating: none
+[Blue] Released 3/1/2018 [April:1/1/2015] [Unknown] Rating: *(0)**(0)***(1)****(0)*****(0)(average rating: 3.00)
+[Famous Friends] Released 8/6/2021 [Chris Young:6/12/1985] [Country] Rating: none
+[Piece of Me] Released 11/1/2021 [April:4/30/2000] [Pop] Rating: *(1)**(0)***(0)****(0)*****(0)(average rating: 1.00)
+[A Rush of Blood to the Head] Released 3/25/2022 [Coldplay:1/1/1997] [Pop] Rating: none
+[Humble Quest] Released 3/25/2022 [Maren Morris:4/10/1990] [Country] Rating: none
+[Midnights] Released 3/25/2022 [Taylor Swift:12/13/1989] [Pop] Rating: *(0)**(0)***(0)****(0)*****(1)(average rating: 5.00)
+[Dream Louder] Released 1/12/2024 [Rotem Sivan:2/14/1989] [Jazz] Rating: *(0)**(0)***(0)****(1)*****(1)(average rating: 4.50)
+* end of list *
+* Collection sorted by Rating/Title *
+[Midnights] Released 3/25/2022 [Taylor Swift:12/13/1989] [Pop] Rating: *(0)**(0)***(0)****(0)*****(1)(average rating: 5.00)
+[Dream Louder] Released 1/12/2024 [Rotem Sivan:2/14/1989] [Jazz] Rating: *(0)**(0)***(0)****(1)*****(1)(average rating: 4.50)
+[Debussy:La Mer] Released 2/28/1995 [Leonard Bernstein:8/15/1918] [Classical] Rating: *(0)**(1)***(0)****(0)*****(1)(average rating: 3.50)
+[Debussy:La Mer] Released 1/1/2001 [Michael Tilson Thomas:12/21/1944] [Classical] Rating: *(0)**(0)***(1)****(1)*****(0)(average rating: 3.50)
+[Fearless] Released 11/8/2008 [Taylor Swift:12/13/1989] [Pop] Rating: *(2)**(1)***(2)****(2)*****(3)(average rating: 3.30)
+[Blue] Released 3/1/2018 [April:1/1/2015] [Unknown] Rating: *(0)**(0)***(1)****(0)*****(0)(average rating: 3.00)
+[Ghost Stories] Released 5/16/2014 [Coldplay:1/1/1997] [Pop] Rating: *(1)**(1)***(1)****(1)*****(1)(average rating: 3.00)
+[Wonderful Town] Released 9/14/1999 [Simon Rattle:1/19/1955] [Classical] Rating: *(0)**(1)***(0)****(0)*****(0)(average rating: 2.00)
+[Piece of Me] Released 11/1/2021 [April:4/30/2000] [Pop] Rating: *(1)**(0)***(0)****(0)*****(0)(average rating: 1.00)
+[A Rush of Blood to the Head] Released 3/25/2022 [Coldplay:1/1/1997] [Pop] Rating: none
+[Bernstein's Complete Recordings on Deutsche Grammophon] Released 11/8/2005 [Leonard Bernstein:8/15/1918] [Classical] Rating: none
+[Debussy:La Mer] Released 9/13/2005 [Simon Rattle:1/19/1955] [Classical] Rating: none
+[Debussy:La Mer] Released 1/1/2006 [Gary Bertini:5/1/1927] [Classical] Rating: none
+[Famous Friends] Released 8/6/2021 [Chris Young:6/12/1985] [Country] Rating: none
+[Hero] Released 6/3/2016 [Maren Morris:4/10/1990] [Country] Rating: none
+[Humble Quest] Released 3/25/2022 [Maren Morris:4/10/1990] [Country] Rating: none
+[Losing Sleep] Released 10/20/2017 [Chris Young:6/12/1985] [Country] Rating: none
+[Mahler:Symphonies 1-10] Released 1/10/2006 [Gary Bertini:5/1/1927] [Classical] Rating: none
+[Pure Mose] Released 7/9/1996 [Mose Allison:11/11/1927] [Jazz] Rating: none
+[Queen of Hearts] Released 1/1/1989 [Joan Baez:1/9/1941] [Unknown] Rating: none
+[Testing Album] Released 10/31/1977 [Ray Charles:9/29/1930] [Jazz] Rating: none
+[The Way of the World] Released 3/23/2010 [Mose Allison:11/11/1927] [Jazz] Rating: none
+[True to Life] Released 10/1/1977 [Ray Charles:9/23/1930] [Jazz] Rating: none
+* end of list *
+* Collection sorted by Genre/Artist *
+[Debussy:La Mer] Released 1/1/2006 [Gary Bertini:5/1/1927] [Classical] Rating: none
+[Mahler:Symphonies 1-10] Released 1/10/2006 [Gary Bertini:5/1/1927] [Classical] Rating: none
+[Debussy:La Mer] Released 2/28/1995 [Leonard Bernstein:8/15/1918] [Classical] Rating: *(0)**(1)***(0)****(0)*****(1)(average rating: 3.50)
+[Bernstein's Complete Recordings on Deutsche Grammophon] Released 11/8/2005 [Leonard Bernstein:8/15/1918] [Classical] Rating: none
+[Debussy:La Mer] Released 1/1/2001 [Michael Tilson Thomas:12/21/1944] [Classical] Rating: *(0)**(0)***(1)****(1)*****(0)(average rating: 3.50)
+[Wonderful Town] Released 9/14/1999 [Simon Rattle:1/19/1955] [Classical] Rating: *(0)**(1)***(0)****(0)*****(0)(average rating: 2.00)
+[Debussy:La Mer] Released 9/13/2005 [Simon Rattle:1/19/1955] [Classical] Rating: none
+[Famous Friends] Released 8/6/2021 [Chris Young:6/12/1985] [Country] Rating: none
+[Losing Sleep] Released 10/20/2017 [Chris Young:6/12/1985] [Country] Rating: none
+[Hero] Released 6/3/2016 [Maren Morris:4/10/1990] [Country] Rating: none
+[Humble Quest] Released 3/25/2022 [Maren Morris:4/10/1990] [Country] Rating: none
+[Pure Mose] Released 7/9/1996 [Mose Allison:11/11/1927] [Jazz] Rating: none
+[The Way of the World] Released 3/23/2010 [Mose Allison:11/11/1927] [Jazz] Rating: none
+[True to Life] Released 10/1/1977 [Ray Charles:9/23/1930] [Jazz] Rating: none
+[Testing Album] Released 10/31/1977 [Ray Charles:9/29/1930] [Jazz] Rating: none
+[Dream Louder] Released 1/12/2024 [Rotem Sivan:2/14/1989] [Jazz] Rating: *(0)**(0)***(0)****(1)*****(1)(average rating: 4.50)
+[Piece of Me] Released 11/1/2021 [April:4/30/2000] [Pop] Rating: *(1)**(0)***(0)****(0)*****(0)(average rating: 1.00)
+[Ghost Stories] Released 5/16/2014 [Coldplay:1/1/1997] [Pop] Rating: *(1)**(1)***(1)****(1)*****(1)(average rating: 3.00)
+[A Rush of Blood to the Head] Released 3/25/2022 [Coldplay:1/1/1997] [Pop] Rating: none
+[Fearless] Released 11/8/2008 [Taylor Swift:12/13/1989] [Pop] Rating: *(2)**(1)***(2)****(2)*****(3)(average rating: 3.30)
+[Midnights] Released 3/25/2022 [Taylor Swift:12/13/1989] [Pop] Rating: *(0)**(0)***(0)****(0)*****(1)(average rating: 5.00)
+[Blue] Released 3/1/2018 [April:1/1/2015] [Unknown] Rating: *(0)**(0)***(1)****(0)*****(0)(average rating: 3.00)
+[Queen of Hearts] Released 1/1/1989 [Joan Baez:1/9/1941] [Unknown] Rating: none
+* end of list *
+Invalid command!
+Collection Manager terminated.
