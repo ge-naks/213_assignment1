@@ -12,25 +12,25 @@ PD
 PG
 PR
 A BLAH BLAH BLAH
-A,A fun album,xxx,0/2/2000,xxx,1/2/2000
-A,A fun album,xxx,13/2/2020,xxx,12/2/2020
-A,A fun album,xxx,2/29/2021,xxx,2/28/2021
-A,A fun album,xxx,4/31/2009,xxx,4/30/2009
-A,A fun album,xxx,3/32/2009,xxx,3/31/2009
-A,A fun album,xxx,3/31/1899,xxx,3/31/1999
-A,A fun album,xxx,3/31/2025,xxx,1/31/2024
-A,A fun album,xxx,2/29/2024,xxx,1/29/2024
-A,A fun album,xxx,11/0/2021,xxx,11/1/2021
+A,A fun album.Album,xxx,0/2/2000,xxx,1/2/2000
+A,A fun album.Album,xxx,13/2/2020,xxx,12/2/2020
+A,A fun album.Album,xxx,2/29/2021,xxx,2/28/2021
+A,A fun album.Album,xxx,4/31/2009,xxx,4/30/2009
+A,A fun album.Album,xxx,3/32/2009,xxx,3/31/2009
+A,A fun album.Album,xxx,3/31/1899,xxx,3/31/1999
+A,A fun album.Album,xxx,3/31/2025,xxx,1/31/2024
+A,A fun album.Album,xxx,2/29/2024,xxx,1/29/2024
+A,A fun album.Album,xxx,11/0/2021,xxx,11/1/2021
 
-A,A fun album,xxx,1/2/2000,xxx,0/2/2000
-A,A fun album,xxx,12/2/2020,xxx,13/2/2020
-A,A fun album,xxx,2/28/2021,xxx,2/29/2021
-A,A fun album,xxx,4/30/2009,xxx,4/31/2009
-A,A fun album,xxx,3/31/2009,xxx,3/32/2009
-A,A fun album,xxx,3/31/1999,xxx,3/31/1899
-A,A fun album,xxx,1/1/2024,xxx,3/31/2025
-A,A fun album,xxx,1/9/2024,xxx,2/29/2024
-A,A fun album,xxx,11/1/2021,xxx,11/0/2021
+A,A fun album.Album,xxx,1/2/2000,xxx,0/2/2000
+A,A fun album.Album,xxx,12/2/2020,xxx,13/2/2020
+A,A fun album.Album,xxx,2/28/2021,xxx,2/29/2021
+A,A fun album.Album,xxx,4/30/2009,xxx,4/31/2009
+A,A fun album.Album,xxx,3/31/2009,xxx,3/32/2009
+A,A fun album.Album,xxx,3/31/1999,xxx,3/31/1899
+A,A fun album.Album,xxx,1/1/2024,xxx,3/31/2025
+A,A fun album.Album,xxx,1/9/2024,xxx,2/29/2024
+A,A fun album.Album,xxx,11/1/2021,xxx,11/0/2021
 
 A,Fearless,Taylor Swift,12/13/1989,pop,11/8/2008
 A,Fearless,Taylor Swift,12/13/1989,pop,11/8/2008
