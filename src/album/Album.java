@@ -1,5 +1,8 @@
 package album;
 
+import java.util.Date;
+import java.util.StringTokenizer;
+
 public class Album {
     private String title;
     private Artist artist;
@@ -31,5 +34,9 @@ public class Album {
             return artist.name.equals(album.title); // Remember that it needs to be all lowercase
             // we can do this through Scanner method.
         }
+        return false;
+    }
+    public String toString() {
+
     }
 }
