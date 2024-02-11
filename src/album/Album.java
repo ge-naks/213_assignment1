@@ -1,9 +1,4 @@
 package album;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-import java.util.StringTokenizer;
 
 public class Album {
     private String title;
@@ -69,7 +64,7 @@ public class Album {
         // Create a new Rating instance
         Rating newRating = new Rating(star);
         // Set the next rating to the current head of ratings
-        newRating.setNext(ratings);
+        newRating.setNext(this.ratings);
         // Update the head of ratings to the newly added rating
         ratings = newRating;
     }
@@ -82,7 +77,7 @@ public class Album {
 
         int totalStars = 0;
         int numRatings = 0;
-        Rating currRating = ratings;
+        Rating currRating = this.ratings;
 
         while(currRating != null){
             numRatings++;
@@ -103,11 +98,11 @@ public class Album {
         return false;
     }
     public String toString() {
-        return "[" + album.title + "]" + " Released " + released.getMonth() + "/" + released.getDay() + "/" + released.getYear()
-                + "[" + artist.toString(artist) + "]" + " " + "[" + genre + "]" + " ";
+        return "[" + this.getTitle() + "]" + " Released " + released.getMonth() + "/" + released.getDay() + "/" + released.getYear()
+                + "[" + artist.toString(artist) + "]" + " " + "[" + this.genre + "]" + " ";
 
 
         }
 
     }
-}
+
