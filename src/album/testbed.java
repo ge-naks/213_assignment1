@@ -1,3 +1,4 @@
+package album;
 public class testbed {
     public static void main(String[] args) {
         // Test the Date class

@@ -1,5 +1,7 @@
 package album;
-
-    enum Genre{
+public class Genre{
+    enum genreType{
         pop, country, classical, jazz, unknown
     }
+}
+

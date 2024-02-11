@@ -9,13 +9,14 @@ public class Rating {
     private Rating next;
 
     public Rating() {
+
     }
 
-    public Rating(int star){
+    public Rating(int star) {
         this.star = star;
     }
 
-    public Rating(int star, Rating next){
+    public Rating(int star, Rating next) {
         this.star = star;
         this.next = next;
     }
