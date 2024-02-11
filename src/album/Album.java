@@ -1,6 +1,5 @@
 package album;
 
-import java.util.Date;
 import java.util.StringTokenizer;
 
 public class Album {
@@ -37,6 +36,11 @@ public class Album {
         return false;
     }
     public String toString() {
+        return "[" + album.title + "]" + " Released " + released.getMonth() + "/" + released.getDay() + "/" + released.getYear()
+                + "[" + artist.toString(artist) + "]" + " " + "[" + genre + "]" + " ";
+
+
+        }
 
     }
 }

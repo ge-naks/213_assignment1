@@ -37,5 +37,8 @@ public class Artist {
         }
         return false;
     }
+    public String toString(Artist artist) {
+       return "[" + artist.name + artist.born + "]";
+    }
 
 }
