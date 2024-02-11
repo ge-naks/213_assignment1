@@ -7,7 +7,7 @@ public class Album {
     private Date released;
     private Rating ratings; //head for a linked list of ratings
 
-    public Album(){
+    public Album() {
 
     }
 
@@ -71,7 +71,7 @@ public class Album {
 
     public double avgRatings() {
 
-        if(ratings == null){
+        if (ratings == null) {
             return 0.0;
         }
 
@@ -79,15 +79,16 @@ public class Album {
         int numRatings = 0;
         Rating currRating = this.ratings;
 
-        while(currRating != null){
+        while (currRating != null) {
             numRatings++;
             totalStars += currRating.getStar();
             currRating = currRating.getNext();
         }
-        return (double) totalStars/numRatings;
+        return (double) totalStars / numRatings;
 
 
     }
+
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof Album) {
@@ -97,12 +98,30 @@ public class Album {
         }
         return false;
     }
+
     public String toString() {
-        return "[" + this.getTitle() + "]" + " Released " + released.getMonth() + "/" + released.getDay() + "/" + released.getYear()
-                + "[" + artist.toString(artist) + "]" + " " + "[" + this.genre + "]" + " ";
+        if (this.avgRatings() >= 1) {
+            String stringRatings = "";
+            Rating ptr = this.ratings;
+
+            String formattedRating = String.format("%.2f", this.avgRatings());
+
+            while (ptr != null) {
+                stringRatings = "(" + Integer.toString(ptr.getStar()) + ")" + "*".repeat(ptr.getStar());
+                ptr = ptr.getNext();
+            }
 
 
+            return "[" + this.getTitle() + "] " + "Released " + released.getMonth() + "/" + released.getDay()
+                    + "/" + released.getYear() + " " + "[" + this.getArtist().toString(artist)
+                    + " " + "[" + this.genre + "] " + "Rating: *" + stringRatings + "(" + "average rating: "
+                    + formattedRating + ")";
         }
+        return "[" + this.getTitle() + "] " + "Released " + released.getMonth() + "/" + released.getDay()
+                + "/" + released.getYear() + " " + "[" + this.getArtist().toString(artist)
+                + " " + "[" + this.genre + "] " + "Rating: none";
 
     }
+
+}
 

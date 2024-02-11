@@ -38,7 +38,8 @@ public class Artist {
         return false;
     }
     public String toString(Artist artist) {
-       return "[" + artist.name + artist.born + "]";
+       return "[" + artist.name + ":" + artist.born.getMonth() + "/"
+               + artist.born.getDay() + "/" + artist.born.getYear() + "]";
     }
 
 }
