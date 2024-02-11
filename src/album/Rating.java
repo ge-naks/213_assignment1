@@ -1,8 +1,9 @@
 package album;
-// implement the rate method ->
-// add a rating to the linked list
-// implement the avgRating method ->
-// computes the average ratings.
+/**
+ * Class contains a Rating, which is represented via a Node for a singly linked list
+ *
+ * @author Mena Youssef
+ */
 
 public class Rating {
     private int star;
@@ -11,11 +12,16 @@ public class Rating {
     public Rating() {
 
     }
-
+    /**
+     * @param star a 1-5 star rating for an album
+     */
     public Rating(int star) {
         this.star = star;
     }
-
+    /**
+     * @param star a 1-5 star rating for an album
+     * @param next a representation of the next node in the singly linked list
+     */
     public Rating(int star, Rating next) {
         this.star = star;
         this.next = next;
