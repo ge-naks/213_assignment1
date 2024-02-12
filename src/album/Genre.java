@@ -5,7 +5,7 @@ package album;
  * @author George Nakhla
  */
 enum Genre{
-        pop, country, classical, jazz, unknown
+        Pop, Country, Classical, Jazz, Unknown
 }
 
 

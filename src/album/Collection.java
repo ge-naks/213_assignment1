@@ -9,9 +9,42 @@ package album;
  * @author George Nakhla
  */
 public class Collection {
-    private Album[] albums = new Album[4]; // list of albums
-    private int size = 0;       // numbers of albums in the list
+    private Album[] albums; // list of albums
+    private int size;       // numbers of albums in the list
     private final int NOT_FOUND = -1;
+
+    public Collection() {
+
+    }
+
+    /**
+     * Creates a collection object
+     *
+     * @param albums an array of Album objects representing the collection
+     * @param size an int representing the number of albums in the collection
+     *
+     */
+    public Collection(Album[] albums, int size) {
+        this.albums = albums;
+        this.size = size;
+
+    }
+
+    public Album[] getAlbums() {
+        return albums;
+    }
+
+    public void setAlbums(Album[] albums) {
+        this.albums = albums;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
 
     /**
      * Locates album in collection and returns its index in the array.
@@ -60,14 +93,14 @@ public class Collection {
      */
     public boolean add(Album album) {
         if (find(album) == NOT_FOUND) {
-            return true;
-        } else {
-            if (size == albums.length - 1) {
+            if (size == albums.length) {
                 this.grow();
             }
             this.albums[size] = album;
             this.size++;
-            return false;
+            return true; // Return true because the album was successfully added
+        } else {
+            return false; // Return false because the album is already in the collection
         }
 
     }
