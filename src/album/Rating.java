@@ -1,4 +1,5 @@
 package album;
+
 /**
  * Class contains a Rating, which is represented via a Node for a singly linked list
  *
@@ -12,12 +13,14 @@ public class Rating {
     public Rating() {
 
     }
+
     /**
      * @param star a 1-5 star rating for an album
      */
     public Rating(int star) {
         this.star = star;
     }
+
     /**
      * @param star a 1-5 star rating for an album
      * @param next a representation of the next node in the singly linked list

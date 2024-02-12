@@ -16,6 +16,8 @@ public class Artist implements Comparable<Artist> {
     }
 
     /**
+     * Constructor for an artist object.
+     *
      * @param name artist Name
      * @param born the D.O.B of an artist (mm/dd/yyyy)
      */
@@ -51,7 +53,7 @@ public class Artist implements Comparable<Artist> {
     public boolean equals(Object obj) {
         if (obj instanceof Artist) {
             Artist artist = (Artist) obj;
-            return artist.name.equals(this.name);
+            return artist.name.equals(this.name) && artist.born.equals(this.born);
         }
         return false;
     }
