@@ -4,8 +4,17 @@ package album;
  *
  * @author George Nakhla
  */
-enum Genre{
-        Pop, Country, Classical, Jazz, Unknown
+enum Genre {
+        pop, country, classical, jazz, unknown;
+
+        // Method to map unknown genres to the unknown category
+        public static Genre mapToKnownGenre(String genre) {
+                try {
+                        return Genre.valueOf(genre.toLowerCase());
+                } catch (IllegalArgumentException e) {
+                        return unknown;
+                }
+        }
 }
 
 

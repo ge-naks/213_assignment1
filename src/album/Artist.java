@@ -53,7 +53,7 @@ public class Artist implements Comparable<Artist> {
     public boolean equals(Object obj) {
         if (obj instanceof Artist) {
             Artist artist = (Artist) obj;
-            return artist.name.equals(this.name) && artist.born.equals(this.born);
+            return artist.name.equalsIgnoreCase(this.name) && artist.born.equals(this.born);
         }
         return false;
     }
@@ -77,7 +77,7 @@ public class Artist implements Comparable<Artist> {
      * equal to, or greater than the specified artist, respectively, based on the comparison rules.
      */
     public int compareTo(Artist artist) {
-        int nameEquality = this.name.compareTo(artist.name);
+        int nameEquality = this.name.compareToIgnoreCase(artist.name);
 
         if (nameEquality != 0) {
             return nameEquality;

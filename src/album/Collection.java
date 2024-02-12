@@ -12,23 +12,14 @@ public class Collection {
     private Album[] albums; // list of albums
     private int size;       // numbers of albums in the list
     private final int NOT_FOUND = -1;
+    private final int INITIAL_CAPACITY = 4;
+    private final int CAPACITY_INCREMENT = 4;
 
     public Collection() {
-
+        this.albums = new Album[INITIAL_CAPACITY];
+        this.size = 0;
     }
 
-    /**
-     * Creates a collection object
-     *
-     * @param albums an array of Album objects representing the collection
-     * @param size an int representing the number of albums in the collection
-     *
-     */
-    public Collection(Album[] albums, int size) {
-        this.albums = albums;
-        this.size = size;
-
-    }
 
     public Album[] getAlbums() {
         return albums;
@@ -53,8 +44,10 @@ public class Collection {
      * @return the index of the target album in the array
      */
     private int find(Album album) {
-        for (int i = 0; i < size; i++) {
-            if (albums[i].equals(album)) {
+        Album[] temp = this.getAlbums();
+        for(int i = 0; i < temp.length; i++){
+            if(temp[i] == null) continue;
+            if(album.equals(temp[i])){
                 return i;
             }
         }
@@ -65,9 +58,9 @@ public class Collection {
      * Increases the size of the collection by 4 once the array reaches max capacity.
      */
     private void grow() {
-        Album[] temp = new Album[this.size + 4];
+        Album[] temp = new Album[this.size + CAPACITY_INCREMENT];
 
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < this.size; i++) {
             temp[i] = this.albums[i];
         }
 
@@ -92,17 +85,15 @@ public class Collection {
      * @return true if the album is already in the array, false on successful removal
      */
     public boolean add(Album album) {
-        if (find(album) == NOT_FOUND) {
-            if (size == albums.length) {
+        if(find(album) == NOT_FOUND){
+            if(this.size - 1 == this.albums.length ){
                 this.grow();
             }
             this.albums[size] = album;
-            this.size++;
-            return true; // Return true because the album was successfully added
-        } else {
-            return false; // Return false because the album is already in the collection
+            size++;
+            return true;
         }
-
+        return false;
     }
 
     /**

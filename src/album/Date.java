@@ -79,4 +79,7 @@ public class Date implements Comparable<Date> {
             }
             return Integer.compare(this.day, date.day);
         }
+    public String toString(Date date){
+        return date.getMonth() + "/" + date.getDay() + "/" + date.getYear();
+    }
 }

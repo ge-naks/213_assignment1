@@ -2,7 +2,7 @@ package album;
 public class testbed {
     public static void main(String[] args) {
         // Test the Date class
-        Date date1 = new Date(2023, 10, 15);
+        Date date1 = new Date(2023, 0, 15);
         Date date2 = new Date(2022, 12, 31);
         Date date3 = new Date(2024, 2, 10);
         Date date4 = new Date(1899, 5, 20);

@@ -117,9 +117,8 @@ public class Album {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Album) {
-            Album album = (Album) obj;
-            return album.getTitle().equals(this.title) && album.getArtist().equals(this.artist);
+        if (obj instanceof Album album) {
+            return album.getTitle().equalsIgnoreCase(this.title) && album.getArtist().equals(this.artist);
         }
         return false;
     }
@@ -137,7 +136,6 @@ public class Album {
             int[] ratingCounts = new int[5]; // index i = star rating, ratingCounts[i] = number of ratings
 
             while (ptr != null) {
-                System.out.println(ptr.getStar());
                 ratingCounts[ptr.getStar() - 1] += 1;
                 ptr = ptr.getNext();
             }
