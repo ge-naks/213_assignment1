@@ -51,12 +51,15 @@ public class Artist implements Comparable<Artist> {
      */
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Artist) {
-            Artist artist = (Artist) obj;
-            return artist.name.equalsIgnoreCase(this.name) && artist.born.equals(this.born);
-        }
-        return false;
+        if (this == obj)
+            return true;
+        if (obj == null || getClass() != obj.getClass())
+            return false;
+        Artist artist = (Artist) obj;
+        return (name == null ? artist.name == null : name.equalsIgnoreCase(artist.name)) &&
+                (born == null ? artist.born == null : born.equals(artist.born));
     }
+
 
     /**
      * Converts all artist information to a well formatted string.
@@ -86,5 +89,43 @@ public class Artist implements Comparable<Artist> {
         }
 
     }
+
+    public static void main(String[] args) {
+        // Test for equality
+        Date date1 = new Date(1960, 1, 10);
+        Date date2 = new Date(1960, 1, 11);
+        Artist artist1 = new Artist("Drake", date1);
+        Artist artist2 = new Artist("drake", date1);
+        System.out.println("Equality Test: " + artist1.equals(artist2)); // Should print true
+
+        // Test for inequality
+        Artist artist3 = new Artist("Adele", date1);
+        System.out.println("Inequality Test: " + artist1.equals(artist3)); // Should print false
+
+        // Test for string representation
+        System.out.println("String Representation Test:");
+        System.out.println(artist1); // Should print "[Drake:1/10/1960]"
+
+        // Test for comparison
+        System.out.println("\nComparison Test:");
+        System.out.println("Comparison Result between " + artist1.getName() + " and " + artist2.getName() + ": " + artist1.compareTo(artist2));
+        System.out.println("Comparison Result between " + artist1.getName() + " and " + artist3.getName() + ": " + artist1.compareTo(artist3));
+
+        // Additional Tests
+
+        // Test for same artist name but different birth dates
+        Artist artist4 = new Artist("Drake", date2);
+        System.out.println("Comparison Result between " + artist1.getName() + " and " + artist4.getName() + ": " + artist1.compareTo(artist4)); // Should print a negative number
+
+        // Test for same artist name and same birth dates
+        Artist artist5 = new Artist("Drake", date1);
+        System.out.println("Comparison Result between " + artist1.getName() + " and " + artist5.getName() + ": " + artist1.compareTo(artist5)); // Should print 0
+
+        // Test for setting name and birth date
+        artist1.setName("Beyonce");
+        artist1.setBorn(new Date(1981, 9, 4));
+        System.out.println("Updated Artist Info: " + artist1); // Should print "[Beyonce:9/4/1981]"
+    }
+
 
 }

@@ -32,45 +32,46 @@ public class Album {
         this.released = released;
     }
 
+    /**
+     * Returns title of album
+     *
+     * @return title
+     */
     public String getTitle() {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
 
+
+
+    /**
+     * Returns artist of album
+     *
+     * @return artist
+     */
     public Artist getArtist() {
         return artist;
     }
 
-    public void setArtist(Artist artist) {
-        this.artist = artist;
-    }
-
+    /**
+     * Returns genre of album
+     *
+     * @return genre
+     */
     public Genre getGenre() {
         return genre;
     }
 
-    public void setGenre(Genre genre) {
-        this.genre = genre;
-    }
 
+    /**
+     * Returns release of album
+     *
+     * @return release date
+     */
     public Date getReleased() {
         return released;
     }
 
-    public void setReleased(Date released) {
-        this.released = released;
-    }
-
-    public Rating getRatings() {
-        return ratings;
-    }
-
-    public void setRatings(Rating ratings) {
-        this.ratings = ratings;
-    }
 
     /**
      * Adds a new rating to the FRONT of the ratings singly linked list
@@ -117,18 +118,22 @@ public class Album {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Album album) {
-            return album.getTitle().equalsIgnoreCase(this.title) && album.getArtist().equals(this.artist);
-        }
-        return false;
+        if (this == obj)
+            return true;
+        if (obj == null || getClass() != obj.getClass())
+            return false;
+        Album album = (Album) obj;
+        return (title == null ? album.title == null : title.equalsIgnoreCase(album.title)) &&
+                (artist == null ? album.artist == null : artist.equals(album.artist));
     }
+
 
     /**
      * Converts all album information to a well formatted string.
      *
      * @return A string containing Album name, release date, artist genre, average rating, and individual ratings
      */
-
+@Override
     public String toString() {
         if (this.avgRatings() >= 1) {
             Rating ptr = this.ratings;

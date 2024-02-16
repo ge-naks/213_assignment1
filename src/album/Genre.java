@@ -5,14 +5,20 @@ package album;
  * @author George Nakhla
  */
 enum Genre {
-        pop, country, classical, jazz, unknown;
+        Classical, Country, Jazz, Pop,  Unknown;
 
-        // Method to map unknown genres to the unknown category
         public static Genre mapToKnownGenre(String genre) {
+                if (genre == null || genre.isEmpty()) {
+                        return Unknown;
+                }
+
+                // Capitalize the first letter of the genre string
+                String capitalizedGenre = genre.substring(0, 1).toUpperCase() + genre.substring(1).toLowerCase();
+
                 try {
-                        return Genre.valueOf(genre.toLowerCase());
+                        return Genre.valueOf(capitalizedGenre);
                 } catch (IllegalArgumentException e) {
-                        return unknown;
+                        return Unknown;
                 }
         }
 }
